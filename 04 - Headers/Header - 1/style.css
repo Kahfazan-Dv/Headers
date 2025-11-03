@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #012c83;
+    border-radius :  0px 0px 20px 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    user-select: none;
+}
+#nav2 a {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px;
+}
+header nav a:hover {
+    color: #012c83;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+header img {
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
